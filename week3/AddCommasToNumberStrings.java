@@ -22,16 +22,18 @@ public class AddCommasToNumberStrings extends ConsoleProgram {
       
                   println(df.format(k));
    
-	if (k <= 999) {
-		
-		k++;
 	
-		println("The number you entered is below 1000. No commas to add: ");
+                  
+            if (k <= 999) {
+		
+	           	k++;
 	
-		break;	
+		        println("The number you entered is below 1000. No commas to add: ");
+	
+		        break;	
 		
 		
-	}
+	                   }
 	
 	
 	}
