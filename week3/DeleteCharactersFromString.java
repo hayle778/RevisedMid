@@ -3,35 +3,44 @@ package week3;
 import java.util.stream.IntStream;
 
 import acm.program.ConsoleProgram;
+import acm.program.DialogProgram;
 import acmx.export.java.util.Scanner;
 
 public class DeleteCharactersFromString extends ConsoleProgram {
 	
-	public static String removeAllOccurrences() {
-		
-		
 	
+		public String RemoveAllOccurrence() {
+			String pp = readLine();
+			 // String gfg =  println("Abebe beso bela");
+			  // String gg = readLine("AbebeBesoBela is the common sentences for kids in Ethiopia: ");
+		     
+		            String gp = pp.substring( 2 , 7 );
+		            System.out.println(gp);
+		            
+		            
+		                String gemeda = pp.substring( 1 , 9 );
+		            System.out.println( gemeda );
+		            //return g2;
+			
 		
-		   Scanner input = new Scanner(System.in);
-	          System.out.println("Enter a string:");
-		      String gg =input.nextLine();
-	     //   } //String g1 = "I like soccer. It is my favourite sport:";
-	            // String g2 = g1.substring( 2 , 9 );
-
-	            String g2 = gg.substring( 2 , 17 );
-	            System.out.println( g2 );
-	            String gemeda = gg.substring( 1 , 9 );
-	            System.out.println( gemeda );
-	            //return g2;
+			
+			
+			
+			return gp ;
+			
+			
+		}
+	
+		public void run() {
+			
 		
-		return gemeda;
+			
+			RemoveAllOccurrence();
+	
 		
 		}
 	
-	  public void run() {
-	
-		  removeAllOccurrences();
 	
 	}
 	
-}
+
